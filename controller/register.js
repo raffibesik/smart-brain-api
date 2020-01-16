@@ -30,5 +30,5 @@ const handleRegister = (db, bcrypt, saltRounds) => (req, res) => {
 };
 
 module.exports = {
-    handleRegister: handleRegister
+    handleRegister
 };
